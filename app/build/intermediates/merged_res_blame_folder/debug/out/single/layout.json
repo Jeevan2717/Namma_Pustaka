@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/activity_main.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_simple.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_simple.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_reports.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_reports.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/bottom_sheet_issue_book.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/bottom_sheet_issue_book.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_profile.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_add_book.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_add_book.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_leaderboard.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_leaderboard.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_students.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_students.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/item_review.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/item_review.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_add_student.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_add_student.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_scan.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_scan.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_catalog.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_catalog.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/item_leaderboard.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/item_leaderboard.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/form_book_fields.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/form_book_fields.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_splash.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/item_student.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/item_student.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_auth.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_auth.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_home.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_book_detail.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_book_detail.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/item_book_grid.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/item_book_grid.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_add_review.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_add_review.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/fragment_student_detail.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/fragment_student_detail.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/item_transaction.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/item_transaction.xml"
+    },
+    {
+        "merged": "com.nammapustaka.app-mergeDebugResources-63:/layout/dialog_return_book.xml",
+        "source": "com.nammapustaka.app-main-66:/layout/dialog_return_book.xml"
+    }
+]

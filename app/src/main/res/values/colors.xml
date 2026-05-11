@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Earthy Palette -->
+    <color name="seed">#2E7D32</color>
+
+    <color name="colorPrimary">#2E7D32</color> <!-- Forest Green -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimaryContainer">#C8E6C9</color>
+    <color name="colorOnPrimaryContainer">#003300</color>
+
+    <color name="colorSecondary">#795548</color> <!-- Earth Brown -->
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorSecondaryContainer">#D7CCC8</color>
+    <color name="colorOnSecondaryContainer">#3E2723</color>
+
+    <color name="colorTertiary">#6D4C41</color> <!-- Darker Earth -->
+    <color name="colorOnTertiary">#FFFFFF</color>
+
+    <color name="colorBackground">#FCF9F2</color> <!-- Warm Off-White/Cream -->
+    <color name="colorOnBackground">#1C1B19</color>
+
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#1C1B19</color>
+    <color name="colorSurfaceVariant">#EBE8DF</color>
+    <color name="colorOnSurfaceVariant">#4B473F</color>
+
+    <color name="colorOutline">#7C776D</color>
+
+    <!-- Semantic Colors (Rural Friendly) -->
+    <color name="colorAvailable">#388E3C</color>
+    <color name="colorBorrowed">#A1887F</color>
+    <color name="colorOverdue">#D32F2F</color>
+    <color name="colorOverdueBg">#F9DEDC</color>
+
+    <color name="colorTeacherBadge">#2E7D32</color>
+    <color name="colorStudentBadge">#795548</color>
+
+    <!-- Legacy/Specific support -->
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="rankGold">#D4AF37</color>
+    <color name="rankSilver">#C0C0C0</color>
+    <color name="rankBronze">#CD7F32</color>
+</resources>

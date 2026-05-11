@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ನಮ್ಮ ಪುಸ್ತಕ</string>
+    <string name="app_name_en">Namma Pustaka</string>
+    <string name="tagline">Your Smart School Library</string>
+    <string name="welcome_teacher">ಸ್ವಾಗತ, ಶಿಕ್ಷಕರೇ!</string>
+    <string name="welcome_student">ಸ್ವಾಗತ!</string>
+    <string name="category_story">ಕಥೆ</string>
+    <string name="category_science">ವಿಜ್ಞಾನ</string>
+    <string name="category_history">ಇತಿಹಾಸ</string>
+    <string name="summary_hint">ಪುಸ್ತಕದ ಸಾರಾಂಶ...</string>
+    <string name="available">ಲಭ್ಯವಿದೆ</string>
+    <string name="borrowed">ಎರವಲು ಪಡೆಯಲಾಗಿದೆ</string>
+    <string name="overdue">ಅವಧಿ ಮೀರಿದೆ</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="overview">Overview</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="recently_added">Recently Added Books</string>
+    <string name="nothing_to_show">Nothing to show yet</string>
+</resources>

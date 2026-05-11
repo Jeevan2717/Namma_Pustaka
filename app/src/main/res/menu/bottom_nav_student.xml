@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment" android:icon="@drawable/ic_book" android:title="Home" />
+    <item android:id="@+id/catalogFragment" android:icon="@drawable/ic_search" android:title="Catalog" />
+    <item android:id="@+id/leaderboardFragment" android:icon="@drawable/ic_trophy" android:title="Leaderboard" />
+    <item android:id="@+id/profileFragment" android:icon="@drawable/ic_person" android:title="Profile" />
+</menu>
