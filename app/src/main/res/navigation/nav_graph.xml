@@ -33,7 +33,9 @@
     <fragment android:id="@+id/editBookFragment" android:name="com.nammapustaka.ui.catalog.EditBookFragment" android:label="Edit Book">
         <argument android:name="bookId" app:argType="integer" android:defaultValue="0" />
     </fragment>
-    <fragment android:id="@+id/scanFragment" android:name="com.nammapustaka.ui.scan.ScanFragment" android:label="Scan" />
+    <fragment android:id="@+id/scanFragment" android:name="com.nammapustaka.ui.scan.ScanFragment" android:label="Scan">
+        <argument android:name="forResult" app:argType="boolean" android:defaultValue="false" />
+    </fragment>
     <fragment android:id="@+id/studentsFragment" android:name="com.nammapustaka.ui.students.StudentsFragment" android:label="Students">
         <action android:id="@+id/action_students_to_detail" app:destination="@id/studentDetailFragment" />
         <action android:id="@+id/action_students_to_addStudent" app:destination="@id/addStudentFragment" />

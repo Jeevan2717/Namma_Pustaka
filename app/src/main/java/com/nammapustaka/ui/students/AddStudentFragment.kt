@@ -21,12 +21,18 @@ class AddStudentFragment : Fragment(R.layout.fragment_add_student) {
     private val gallery = registerForActivityResult(ActivityResultContracts.GetContent()) { uri ->
         if (uri != null) { avatarPath = ImageUtil.saveImageToInternalStorage(requireContext(), uri); Glide.with(this).load(avatarPath).placeholder(R.drawable.ic_person).into(binding.avatarImage) }
     }
+    private val camera = registerForActivityResult(ActivityResultContracts.TakePicturePreview()) { bitmap ->
+        if (bitmap != null) {
+            avatarPath = ImageUtil.saveImageFromCamera(requireContext(), bitmap)
+            Glide.with(this).load(avatarPath).placeholder(R.drawable.ic_person).into(binding.avatarImage)
+        }
+    }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding = FragmentAddStudentBinding.bind(view)
         if (!requireTeacherOrHome()) return
         binding.toolbar.setNavigationOnClickListener { findNavController().popBackStack() }
         binding.galleryButton.setOnClickListener { gallery.launch("image/*") }
-        binding.takePhotoButton.setOnClickListener { Snackbar.make(binding.root, "Camera avatar capture uses the same internal storage path.", Snackbar.LENGTH_SHORT).show() }
+        binding.takePhotoButton.setOnClickListener { camera.launch(null) }
         binding.saveButton.setOnClickListener {
             val name = binding.nameInput.text?.toString()?.trim().orEmpty()
             val roll = binding.rollInput.text?.toString()?.trim().orEmpty()

@@ -27,17 +27,28 @@ open class AddBookFragment : Fragment(R.layout.fragment_add_book) {
         }
     }
 
+    private val camera = registerForActivityResult(ActivityResultContracts.TakePicturePreview()) { bitmap ->
+        if (bitmap != null) {
+            coverPath = ImageUtil.saveImageFromCamera(requireContext(), bitmap)
+            Glide.with(this).load(coverPath).placeholder(R.drawable.placeholder_book).into(binding.coverImage)
+        }
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding = FragmentAddBookBinding.bind(view)
         if (!requireTeacherOrHome()) return
         binding.toolbar.setNavigationOnClickListener { findNavController().popBackStack() }
+        
+        findNavController().currentBackStackEntry?.savedStateHandle?.getLiveData<String>("scanned_qr")?.observe(viewLifecycleOwner) { qr ->
+            binding.bookFields.qrInput.setText(qr)
+        }
+
         binding.bookFields.categoryInput.setAdapter(ArrayAdapter(requireContext(), android.R.layout.simple_dropdown_item_1line, listOf("Story", "Science", "History")))
         binding.galleryButton.setOnClickListener { gallery.launch("image/*") }
-        binding.takePhotoButton.setOnClickListener { Snackbar.make(binding.root, "Camera capture is ready through CameraX in Scan; use Gallery on emulator.", Snackbar.LENGTH_SHORT).show() }
+        binding.takePhotoButton.setOnClickListener { camera.launch(null) }
         binding.bookFields.generateQrButton.text = "Open Scanner"
         binding.bookFields.generateQrButton.setOnClickListener {
-            Snackbar.make(binding.root, "Use Scan QR from dashboard to issue or return books. Enter the printed QR code here while adding catalog details.", Snackbar.LENGTH_LONG).show()
-            findNavController().navigate(R.id.scanFragment)
+            findNavController().navigate(R.id.scanFragment, Bundle().apply { putBoolean("forResult", true) })
         }
         binding.saveButton.setOnClickListener { save() }
     }
